@@ -1,0 +1,61 @@
+body {
+    background-image: url('UMC\ 뭔가\ 간지나는\ 배경1\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25%;
+}
+
+.back {
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 70%;
+    padding: 2rem 0 2rem 0;
+}
+
+.title {
+    margin-bottom: 5%;
+}
+
+h1 {
+    display: inline;
+    border-bottom: 1px solid white;
+    padding: 0 3rem 3px 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5%;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input::placeholder {
+    color: white;
+}
+
+.login {
+    background-color: #333333;
+    color: white;
+    border: none;
+    width: 18%;
+    padding: 1% 0 1% 0;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+
+.new {
+    background: transparent;
+    border: none;
+    font-size: 5px;
+}
+
+p {
+    display: inline;
+}
+
