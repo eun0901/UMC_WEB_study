@@ -1,5 +1,5 @@
 
-import MovieList from "./Components/MovieList"
+import MovieList from "./Components/Movie/MovieList"
 
 function App() {
   return (
