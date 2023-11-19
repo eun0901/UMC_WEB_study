@@ -9,14 +9,14 @@ const Back = styled.div`
     flex-direction: row;
 `;
 
-function MovieList(props) {
+function MovieList() {
 
 
     return (
         <Back>
             {movies.results.map((item, idx) => {
                 return (
-                    <Movie item={item} />
+                    <Movie item={item} key={idx} />
                 )
             })
             }

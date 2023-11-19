@@ -1,3 +1,15 @@
 body {
-    background-color: rgb(3, 79, 131);
+    margin: 0;
+}
+
+.linkChange {
+    color: inherit; /* 링크 기본 색상 상속 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    margin: 0 5% 0 5%;
+}
+
+.linkChange:hover,
+.linkChange:visited,
+.linkChange:active {
+    color: inherit; /* 호버, 방문, 액티브 상태에서도 동일한 색상 유지 */
 }
