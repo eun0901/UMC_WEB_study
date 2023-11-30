@@ -1,4 +1,4 @@
-import Movie from "./Movie/Movie";
+import Movie from "../Components/Movie/Movie";
 import { movies } from "../movies";
 import styled from 'styled-components';
 

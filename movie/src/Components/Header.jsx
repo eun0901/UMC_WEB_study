@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import LoginControl from './LoginControl';
 
 const Div = styled.div`
     background-color: rgb(20, 49, 85);
@@ -26,22 +27,23 @@ export default function Header() {
                 />
             </Link>
             <ul style={{ listStyleType: "none", display: "flex", flexDirection: "row" }}>
-                <div style={{width: "3rem", margin: "3%"}}>
-                    <Link to='/movies' className="linkChange">
+                <div style={{ width: "3rem", margin: "3%" }}>
+                    <Link to='/movie' className="linkChange">
                         <Li>영화</Li>
                     </Link>
                 </div>
-                <div style={{width: "8rem", margin: "3%"}}>
+                <div style={{ width: "8rem", margin: "3%" }}>
                     <Link to='/TV' className="linkChange">
                         <Li>TV 프로그램</Li>
                     </Link>
                 </div>
-                <div  style={{width: "3rem", margin: "3%"}}>
+                <div style={{ width: "3rem", margin: "3%" }}>
                     <Link to='celebrity' className="linkChange">
                         <Li>인물</Li>
                     </Link>
                 </div>
             </ul>
+            <LoginControl />
         </Div>
     )
 }

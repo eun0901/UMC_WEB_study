@@ -1,5 +1,5 @@
 import React from 'react'
-import AdPage from './AdPage'
+import AdPage from '../Components/AdPage'
 
 export default function Home() {
   return (
